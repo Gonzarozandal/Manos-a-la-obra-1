@@ -1,0 +1,70 @@
+.titulo {
+    text-align: center; /* Centrar el título */
+    font-size: 50px; /* Tamaño de fuente del título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+.nueva-tarea {
+    text-align: center; /* Centrar los elementos del contenedor de la nueva tarea */
+}
+
+.input-contenedor {
+    display: flex; /* Usar flexbox para alinear los elementos */
+    justify-content: center; /* Centrar los elementos horizontalmente */
+    align-items: center; /* Centrar los elementos verticalmente */
+    margin-top: 20px; /* Espacio encima del contenedor del input */
+}
+
+.input-contenedor input[type="text"] {
+    width: 450px; /* Ancho del campo de entrada */
+    height: 40px; /* Altura del campo de entrada */
+    padding: 10px; /* Espacio interno */
+    font-size: 25px; /* Tamaño del texto */
+    border: 2px solid ; /* Bordes redondeados */
+}
+
+.input-contenedor button {
+    height: 65px; /* Altura del botón */
+    padding: 20px 45px; /* Espacio interno */
+    font-size: 16px; /* Tamaño del texto */
+    border: 2px solid; /* Color del texto */
+    cursor: pointer; /* Cursor tipo puntero */
+    margin-left: 10px; /* Espacio entre el botón y el campo de entrada */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+}
+
+
+
+.contenedor {
+    width: 610px; /* Ancho del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+}
+
+.tarea {
+    display: flex; /* Flexbox para alinear los elementos en una fila */
+    align-items: center; /* Centrar los elementos verticalmente */
+    justify-content: space-between; /* Distribuir el espacio entre los elementos */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid;
+}
+
+.tarea input[type="checkbox"] {
+    width: 25px; /* Ancho del checkbox */
+    height: 25px; /* Alto del checkbox */
+    margin-right: 10px; /* Espacio entre el checkbox y el texto */
+}
+
+.tarea button {
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 25px; /* Tamaño de la fuente del botón de eliminar */
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Sin borde */
+    
+}
+
+.tarea span {
+    flex-grow: 1; /* Hace que el span ocupe el espacio restante */
+    font-size: 25px; /* Tamaño de fuente del texto de la tarea */
+}
